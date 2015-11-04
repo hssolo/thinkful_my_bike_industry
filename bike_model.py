@@ -1,3 +1,5 @@
+import random 
+
 class Bicycle(object):
     def __init__(self, model, weight, cost):
         self.model = model
