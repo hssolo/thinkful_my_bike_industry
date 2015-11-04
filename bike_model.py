@@ -11,7 +11,8 @@ class Shop(object):
         self.store_inventory = store_inventory
         self.profit = 0
         
-    def availability(self, sold): 
+    def availability(self, sold):
+        """extracts model name from Bicycle object and updates inventory"""
         #import pdb; pdb.set_trace()
         model_name_availability = []
         for x in self.store_inventory:
