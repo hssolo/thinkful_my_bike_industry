@@ -1,4 +1,5 @@
 from bike_model import Bicycle, Shop, Customer
+import random
 
 #import bike_model
 #cannondale - bike_model.Bicycle
